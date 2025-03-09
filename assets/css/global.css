@@ -1,0 +1,56 @@
+html {
+  @apply h-auto scroll-smooth;
+  scroll-padding-top: 64px;
+}
+
+body {
+  @apply min-h-dvh font-sans text-sm lg:text-lg font-semibold overflow-x-hidden;
+  line-height: 1.2em;
+}
+
+#__test-app {
+  @apply min-h-dvh flex flex-col;
+}
+
+.container {
+  @apply mx-auto md:max-w-[990px] xl:max-w-[1440px] px-4 sm:px-6 w-full;
+}
+
+a {
+  @apply transition hover:opacity-90 cursor-pointer;
+}
+
+main {
+  @apply min-h-dvh flex-1;
+}
+
+section {
+  @apply pb-[4dvh] py-10 flex-1 h-full;
+  .section-container {
+    @apply p-3 md:px-8 pt-5 pb-5 w-full h-full;
+  }
+}
+
+.shadow-card {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  @apply flex-1 relative overflow-hidden py-6 h-full;
+}
+
+.ui-scrollbars ::-webkit-scrollbar {
+  @apply bg-transparent w-2 h-2 rounded;
+}
+
+.ui-scrollbars ::-webkit-scrollbar-track {
+  @apply bg-gray-400;
+}
+
+.ui-scrollbars ::-webkit-scrollbar-thumb {
+  @apply rounded bg-white/50 w-4 transition-all;
+}
+
+.ui-scrollbars ::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/50 transition-all;
+}
