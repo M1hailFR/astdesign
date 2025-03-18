@@ -10,6 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@firebase/analytics": "^0.10.12",
+    "@firebase/app": "^0.11.2",
+    "@firebase/auth": "^1.9.1",
+    "@firebase/firestore": "^4.7.9",
+    "@firebase/functions": "^0.12.3",
+    "@firebase/storage": "^0.13.7",
     "firebase": "^11.4.0",
     "nuxt": "^3.16.0",
     "prettier": "^3.5.3",

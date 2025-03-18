@@ -24,6 +24,18 @@ export default defineNuxtConfig({
     }
   },
 
+  build: {
+    transpile: [
+      'firebase',
+      '@firebase/app',
+      '@firebase/analytics',
+      '@firebase/auth',
+      '@firebase/firestore',
+      '@firebase/functions',
+      '@firebase/storage'
+    ]
+  },
+
   app: {
     rootId: "__test-app",
     head: {

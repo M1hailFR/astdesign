@@ -8,6 +8,24 @@ importers:
 
   .:
     dependencies:
+      '@firebase/analytics':
+        specifier: ^0.10.12
+        version: 0.10.12(@firebase/app@0.11.2)
+      '@firebase/app':
+        specifier: ^0.11.2
+        version: 0.11.2
+      '@firebase/auth':
+        specifier: ^1.9.1
+        version: 1.9.1(@firebase/app@0.11.2)
+      '@firebase/firestore':
+        specifier: ^4.7.9
+        version: 4.7.9(@firebase/app@0.11.2)
+      '@firebase/functions':
+        specifier: ^0.12.3
+        version: 0.12.3(@firebase/app@0.11.2)
+      '@firebase/storage':
+        specifier: ^0.13.7
+        version: 0.13.7(@firebase/app@0.11.2)
       firebase:
         specifier: ^11.4.0
         version: 11.4.0
