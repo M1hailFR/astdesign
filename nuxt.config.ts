@@ -12,6 +12,18 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
+  runtimeConfig: {
+    public: {
+      firebaseApiKey: "AIzaSyCwWox7LN3MvSUpPaZY-_NyCkuC17C_ZPI",
+      firebaseAuthDomain: "rmnvch-resume.firebaseapp.com",
+      firebaseProjectId: "rmnvch-resume",
+      firebaseStorageBucket: "rmnvch-resume.firebasestorage.app",
+      firebaseMessagingSenderId: "650268771761",
+      firebaseAppId: "1:650268771761:web:7ec5139544a1c809046990",
+      firebaseMeasurementId: "G-566MN20332"
+    }
+  },
+
   app: {
     rootId: "__test-app",
     head: {
